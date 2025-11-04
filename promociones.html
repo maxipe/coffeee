@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Coffeee - Café Literario</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="horizontal linea-titulo">
+          <img
+            src="images/logo-coffeee-06.svg"
+            alt="Logo de Coffee. Una taza de café con leche con una cara sonriente"
+            width="100"
+            height="100"
+          />
+          <h1>Bienvenido a Coffeee</h1>
+          <img
+            src="images/logo-coffeee-06.svg"
+            alt="Logo de Coffee. Una taza de café con leche con una cara sonriente"
+            width="100"
+            height="100"
+          />
+        </div>
+        <div class="subtitulo">
+          <h3>Café Literario</h3>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="menu.html">Menú</a></li>
+            <li><a href="contacto.html">Ubicación y contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="paper">
+        <div class="container izquierda">
+          <h3>¡Promociones!</h3>
+          <div class="item">
+            <div class="container espaciado-entre">
+              <div class="item">
+                <strong>Café y Pastelería</strong>
+              </div>
+              <div class="item">
+                <div class="monto">10% de descuento</div>
+              </div>
+              <div class="item">
+                <span
+                  >Con la compra de al menos un café y cualquier producto de
+                  pastelería, en toda la compra.</span
+                >
+              </div>
+            </div>
+            <img
+              src="images/promociones/coffeeandcake.png"
+              alt="Ilustración de un café y una torta"
+              class="imagen-promocion"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="images/promociones/coffeeandsalad.png"
+              alt="Ilustración de un café y una ensalada"
+              class="imagen-promocion"
+            />
+            <div class="container espaciado-entre">
+              <div class="item">
+                <strong>Café y Comida</strong>
+              </div>
+              <div class="item">
+                <div class="monto">15% de descuento</div>
+              </div>
+              <div class="item">
+                <span
+                  >Con la compra de un café y un plato de comida, en toda la
+                  compra.</span
+                >
+              </div>
+            </div>
+
+            <div class="container espaciado-entre">
+              <div class="item">
+                <strong>Café, Comida y Postre</strong>
+              </div>
+              <div class="item">
+                <div class="monto">20% de descuento</div>
+              </div>
+              <div class="item">
+                <span
+                  >Con la compra de un café, un plato de comida y un postre, en toda la
+                  compra.</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="paper">
+        <div class="container izquierda">
+          <h3>Cafés</h3>
+          <div class="item separador" data-type="cafe">
+            <img src="images/menu/espresso.png" alt="Espresso" />
+            <div class="item-info">
+              <strong>Espresso</strong><br />
+              Café intenso y aromático.
+            </div>
+            <div class="monto">$3500</div>
+            <div class="contador">
+              <button class="restar">-</button>
+              <span class="cantidad">0</span>
+              <button class="sumar">+</button>
+            </div>
+          </div>
+          <div class="item separador" data-type="cafe">
+            <img src="images/menu/latte.png" alt="Café Latte" />
+            <div class="item-info">
+              <strong>Café Latte</strong><br />
+              Espresso con leche vaporizada y espuma suave.
+            </div>
+            <div class="monto">$5500</div>
+            <div class="contador">
+              <button class="restar">-</button>
+              <span class="cantidad">0</span>
+              <button class="sumar">+</button>
+            </div>
+          </div>
+          <div class="item separador" data-type="cafe">
+            <img src="images/menu/cappuccino.webp" alt="Cappuccino" />
+            <div class="item-info">
+              <strong>Cappuccino</strong><br />
+              Mezcla equilibrada de espresso, leche y espuma.
+            </div>
+            <div class="monto">$5700</div>
+            <div class="contador">
+              <button class="restar">-</button>
+              <span class="cantidad">0</span>
+              <button class="sumar">+</button>
+            </div>
+          </div>
+          <div class="item" data-type="cafe">
+            <img src="images/menu/mocha.png" alt="Mocha" />
+            <div class="item-info">
+              <strong>Mocha</strong><br />
+              Café con chocolate y leche cremosa.
+            </div>
+            <div class="monto">$5500</div>
+            <div class="contador">
+              <button class="restar">-</button>
+              <span class="cantidad">0</span>
+              <button class="sumar">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="paper">
+        <div class="container izquierda">
+          <h3>Pastelería</h3>
+          <div class="item separador" data-type="postre">
+            <img src="images/menu/lemon-pie.jpg" alt="Lemon Pie" />
+            <div class="item-info">
+              <strong>Lemon Pie</strong><br />
+              Base crocante, crema de limón y merengue.
+            </div>
+            <div class="monto">$4800</div>
+            <div class="contador">
+              <button class="restar">-</button>
+              <span class="cantidad">0</span>
+              <button class="sumar">+</button>
+            </div>
+          </div>
+          <div class="item separador" data-type="postre">
+            <img src="images/menu/chocotorta.jpg" alt="Chocotorta" />
+            <div class="item-info">
+              <strong>Chocotorta</strong><br />
+              Clásico argentino con galletitas Chocolinas y dulce de leche.
+            </div>
+            <div class="monto">$4000</div>
+            <div class="contador">
+              <button class="restar">-</button>
+              <span class="cantidad">0</span>
+              <button class="sumar">+</button>
+            </div>
+          </div>
+          <div class="item separador" data-type="postre">
+            <img src="images/menu/cookie.jpg" alt="Galleta" />
+            <div class="item-info">
+              <strong>Cookie con chips</strong><br />
+              Galleta artesanal con trozos de chocolate.
+            </div>
+            <div class="monto">$3500</div>
+            <div class="contador">
+              <button class="restar">-</button>
+              <span class="cantidad">0</span>
+              <button class="sumar">+</button>
+            </div>
+          </div>
+          <div class="item" data-type="postre">
+            <img src="images/menu/brownie.jpg" alt="Porción de brownie" />
+            <div class="item-info">
+              <strong>Brownie con nuez</strong><br />
+              Intenso sabor a cacao con trocitos de nuez.
+            </div>
+            <div class="monto">$4200</div>
+            <div class="contador">
+              <button class="restar">-</button>
+              <span class="cantidad">0</span>
+              <button class="sumar">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="paper">
+        <div class="container izquierda">
+          <h3>Comidas</h3>
+          <div class="item separador" data-type="comida">
+            <img src="images/menu/tostado.jpg" alt="Tostado de jamón y queso" />
+            <div class="item-info">
+              <strong>Tostado de jamón y queso</strong><br />
+              Pan de campo con jamón natural y queso fundido.
+            </div>
+            <div class="monto">$5200</div>
+            <div class="contador">
+              <button class="restar">-</button>
+              <span class="cantidad">0</span>
+              <button class="sumar">+</button>
+            </div>
+          </div>
+          <div class="item separador" data-type="comida">
+            <img src="images/menu/ensalada.jpg" alt="Ensalada" />
+            <div class="item-info">
+              <strong>Ensalada fresca</strong><br />
+              Mix de hojas verdes, tomate cherry, palta y semillas.
+            </div>
+            <div class="monto">$4500</div>
+            <div class="contador">
+              <button class="restar">-</button>
+              <span class="cantidad">0</span>
+              <button class="sumar">+</button>
+            </div>
+          </div>
+          <div class="item" data-type="comida">
+            <img
+              src="images/menu/sandwich-vegetariano.jpg"
+              alt="sándwich vegetariano"
+            />
+            <div class="item-info">
+              <strong>Sándwich vegetariano</strong><br />
+              Pan integral con vegetales asados y hummus.
+            </div>
+            <div class="monto">$5800</div>
+            <div class="contador">
+              <button class="restar">-</button>
+              <span class="cantidad">0</span>
+              <button class="sumar">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="paper">
+        <div class="container izquierda">
+          <h3>Resumen</h3>
+          <div><strong>Subtotal:</strong> $<span id="subtotal">0</span></div>
+          <div><strong>Descuento:</strong> $<span id="descuento">0</span></div>
+          <div><strong>Total:</strong> $<span id="total">0</span></div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <footer>
+    <div class="container">
+      <div class="container horizontal">
+        <img
+          src="images/logos/logo-whatsapp.svg"
+          alt="Logo de WhatsApp"
+          width="25"
+          height="25"
+        />
+        <img
+          src="images/logos/logo-instagram.svg"
+          alt="Logo de Instagram"
+          width="25"
+          height="25"
+        />
+        <img
+          src="images/logos/logo-facebook.svg"
+          alt="Logo de Facebook"
+          width="25"
+          height="25"
+        />
+        <img
+          src="images/logos/logo-x.svg"
+          alt="Logo de X"
+          width="25"
+          height="25"
+        />
+      </div>
+      <p>Coffeee Café Literario - 2025</p>
+    </div>
+    <script src="scripts/promociones.js"></script>
+  </footer>
+</html>

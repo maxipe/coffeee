@@ -2,6 +2,7 @@
   font-size: 100%;
   font-family: Verdana, Tahoma, sans-serif;
   color: #333;
+
 }
 
 html body {
@@ -103,6 +104,19 @@ nav a {
   flex-flow: row wrap;
 }
 
+.espaciado-entre {
+  align-content: stretch;
+}
+
+.contador {
+  padding-left: 1rem;
+}
+.item .imagen-promocion {
+  width: 80%;
+  border-radius: 50px 20px;
+  height: auto;
+}
+
 .imagen-principal {
   max-width: 800px;
   width: 100%;
@@ -133,8 +147,11 @@ main div p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #eee;
   padding: 0.8rem 0;
+}
+
+.separador {
+  border-bottom: 1px solid #eee;
 }
 
 .item img {
@@ -149,7 +166,7 @@ main div p {
   flex-grow: 1;
 }
 
-.precio {
+.monto {
   font-weight: bold;
   color: #5a3825;
   white-space: nowrap;
